@@ -1,6 +1,29 @@
-# Harnessing Lighthouse Network for NFT Minting: A Developer's Guide
+# Harnessing Lighthouse Storage for NFT Minting: A Developer's Guide
 
 The world of Non-Fungible Tokens (NFTs) has revolutionized the digital realm, offering unique opportunities for creators and enthusiasts. Entering this domain can be challenging, especially when integrating with blockchain technology. This guide simplifies the process, detailing how to create and manage NFTs using the Astar Network EVM and Lighthouse Storage while leveraging the XCM protocol communication.   
+
+## Introduction
+#### Lighthouse Storage
+In an era defined by digital data, a reliable and enduring file storage solution is of paramount importance. Lighthouse emerges as a front-runner in this domain, offering a storage model designed for the long haul. It uses the miner network and storage capacity of the Filecoin network and the IPFS content-addressing system. Lighthouse's reliance on IPFS ensures widespread file replications across a myriad of Filecoin miners, effectively bolstering data reliability and simplifying the nuances of sustainable, long-term, and perpetual storage.
+
+#### Understanding Lighthouse
+Before diving deep into the steps, let's get a clear picture of Lighthouse:
+
+* **Sustainable Storage**: With an eye on the future, Lighthouse's storage model emphasizes longevity and resilience.
+* **Encrypted Data**: Developers benefit from storing encrypted data on Lighthouse, paving the way to craft token-gated applications.
+* **Developer-Centric**: Lighthouse not only values data security but also ensures ease of integration by offering a variety of SDKs in various languages and a dedicated CLI.
+
+#### Setting Up Lighthouse
+* Website: https://lighthouse.storage
+* Sign into [Files Dapp](https://files.lighthouse.storage/) with your wallet or your GitHub account to start uploading files to Lighthouse.
+* Optionally:
+  * Get [Lighthouse CLI](https://lighthouse-1.gitbook.io/lighthouse-1/cli-tool/overview)
+  * Get [Lighthouse Javascript SDK](https://lighthouse-1.gitbook.io/lighthouse-1/lighthouse-sdk/overview)
+  * Get [Python SDK](https://pypi.org/project/lighthouseweb3/)
+
+In this tutorial we will be using the Lighthouse Javascript SDK to uplaod a file using Lighthouse.
+
+
 
 ## Step 1: Setting Up an EVM Wallet
 Before crafting your NFT, ensure you have a Web3 wallet ready. This wallet bridges traditional web browsers with the Ethereum blockchain, a renowned platform for NFTs. Popular choices include Metamask, Talisman, and Subwallet.
