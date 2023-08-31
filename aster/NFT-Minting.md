@@ -1,7 +1,5 @@
 # Harnessing Lighthouse Network for NFT Minting: A Developer's Guide
 
-![Lighthouse Image](https://example.com/lighthouse-image.jpg)
-
 The world of Non-Fungible Tokens (NFTs) has revolutionized the digital realm, offering unique opportunities for creators and enthusiasts. Entering this domain can be challenging, especially when integrating with blockchain technology. This guide simplifies the process, detailing how to create and manage NFTs using the Astar Network EVM and Lighthouse Storage while leveraging the XCM protocol communication.   
 
 ## Step 1: Setting Up an EVM Wallet
