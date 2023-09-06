@@ -178,25 +178,24 @@ decrypt();
 ---
 ## Advanced Features of Lighthouse SDK: Access Control & File Sharing
 
+* **Access Control:** 
 Lighthouse SDK doesn't just stop at encryption. It also provides a range of advanced features, allowing developers to implement various access control mechanisms. Here's a quick look at some of the types of access control conditions supported:
 
-### Types of Access Control conditions:
+    **Types of Access Control conditions:**
 
-1. **NFTs and Tokens**
-   * **ERC20**: Standard for fungible tokens, allowing a seamless integration for token-based access control.
-   * **ERC721**: Often used for NFTs, granting unique asset-based access.
-   * **ERC1155**: A multi-token standard, allowing for both fungible and non-fungible tokens.
+    1. **NFTs and Tokens**
+        * **ERC20**: Standard for fungible tokens, allowing a seamless integration for token-based access control.
+        * **ERC721**: Often used for NFTs, granting unique asset-based access.
+        * **ERC1155**: A multi-token standard, allowing for both fungible and non-fungible tokens.
 
-2. **Custom Contracts Deployed**: Integration with your custom smart contracts, granting or restricting access based on specific contract conditions.
+    2. **Custom Contracts Deployed**: Integration with your custom smart contracts, granting or restricting access based on specific contract conditions.
 
-3. **Native Chain Token (like ETH)**: Implement access control based on native blockchain assets.
+    3. **Native Chain Token (like ETH)**: Implement access control based on native blockchain assets.
 
-4. **Time-based Access**: Grant or restrict access based on specific time constraints, allowing for temporary permissions.
+    4. **Time-based Access**: Grant or restrict access based on specific time constraints, allowing for temporary permissions.
 
-Additionally, the Lighthouse SDK also provides the ability to share encrypted files with other users. This feature can be especially useful when you want to provide access to a specific piece of data without revealing your encryption keys or compromising security.
-
-**Sharing Files Using Lighthouse Node**:
-Data can easily be shared with another user with end-to-end encryption over IPFS using Lighthouse SDK. 
+* **Sharing Files Using Lighthouse Node**:
+    The Lighthouse SDK also provides the ability to share encrypted files with other users. This feature can be especially useful when you want to provide access to a specific piece of data without revealing your encryption keys or compromising security.
 
 **For more in-depth information on implementaion and practical examples, Lighthouse's official documentation is a treasure trove:**
 
